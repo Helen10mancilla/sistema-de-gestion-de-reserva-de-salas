@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="C:\xampp\htdocs\programacion_salas\tests" tests="10" assertions="28" errors="0" warnings="0" failures="0" skipped="0" time="2.631129">
+    <testsuite name="DBConnectionTest" file="C:\xampp\htdocs\programacion_salas\tests\DBConnectionTest.php" tests="1" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.020210">
+      <testcase name="testConexionConBaseDeDatos" class="DBConnectionTest" classname="DBConnectionTest" file="C:\xampp\htdocs\programacion_salas\tests\DBConnectionTest.php" line="9" assertions="2" time="0.020210"/>
+    </testsuite>
+    <testsuite name="LoginTest" file="C:\xampp\htdocs\programacion_salas\tests\LoginTest.php" tests="1" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.360343">
+      <testcase name="testInicioSesionConCredencialesIncorrectas" class="LoginTest" classname="LoginTest" file="C:\xampp\htdocs\programacion_salas\tests\LoginTest.php" line="9" assertions="3" time="0.360343"/>
+    </testsuite>
+    <testsuite name="PortalAuthTest" file="C:\xampp\htdocs\programacion_salas\tests\PortalAuthTest.php" tests="5" assertions="19" errors="0" warnings="0" failures="0" skipped="0" time="2.186268">
+      <testcase name="testRegistroRechazaCamposObligatoriosVacios" class="PortalAuthTest" classname="PortalAuthTest" file="C:\xampp\htdocs\programacion_salas\tests\PortalAuthTest.php" line="60" assertions="4" time="0.380901"/>
+      <testcase name="testRegistroRechazaContrasenaCorta" class="PortalAuthTest" classname="PortalAuthTest" file="C:\xampp\htdocs\programacion_salas\tests\PortalAuthTest.php" line="75" assertions="4" time="0.533444"/>
+      <testcase name="testRegistroRechazaCorreoNoInstitucional" class="PortalAuthTest" classname="PortalAuthTest" file="C:\xampp\htdocs\programacion_salas\tests\PortalAuthTest.php" line="89" assertions="3" time="0.514464"/>
+      <testcase name="testLoginRechazaCredencialesIncorrectas" class="PortalAuthTest" classname="PortalAuthTest" file="C:\xampp\htdocs\programacion_salas\tests\PortalAuthTest.php" line="154" assertions="4" time="0.394237"/>
+      <testcase name="testLogoutEliminaDatosDeSesionDelPortal" class="PortalAuthTest" classname="PortalAuthTest" file="C:\xampp\htdocs\programacion_salas\tests\PortalAuthTest.php" line="171" assertions="4" time="0.363221"/>
+    </testsuite>
+    <testsuite name="SystemSettingsTest" file="C:\xampp\htdocs\programacion_salas\tests\SystemSettingsTest.php" tests="3" assertions="4" errors="0" warnings="0" failures="0" skipped="0" time="0.064307">
+      <testcase name="testGuardarYConsultarDatoDeUsuario" class="SystemSettingsTest" classname="SystemSettingsTest" file="C:\xampp\htdocs\programacion_salas\tests\SystemSettingsTest.php" line="26" assertions="1" time="0.027303"/>
+      <testcase name="testConsultarDatoDeUsuarioInexistente" class="SystemSettingsTest" classname="SystemSettingsTest" file="C:\xampp\htdocs\programacion_salas\tests\SystemSettingsTest.php" line="39" assertions="1" time="0.006075"/>
+      <testcase name="testCerrarSesionEliminaDatosDelUsuario" class="SystemSettingsTest" classname="SystemSettingsTest" file="C:\xampp\htdocs\programacion_salas\tests\SystemSettingsTest.php" line="46" assertions="2" time="0.030929"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
